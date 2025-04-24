@@ -5,7 +5,7 @@
 
 ---
 
-### Скачать файл напрямую
+### ⬆️ Скачать файл напрямую
 
 [Скачать по ссылке](https://github.com/hk2xe/practice/releases/download/release/main.py)
 
