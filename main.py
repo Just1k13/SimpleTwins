@@ -1,3 +1,5 @@
+import math
+
 def simple(n):
     if n <= 1:
         return False
@@ -5,8 +7,9 @@ def simple(n):
         return True
     if n % 2 == 0 or n % 3 == 0:
         return False
+
     i = 5
-    while i * i <= n:
+    while i <= math.isqrt(n):  # math.isqrt()
         if n % i == 0 or n % (i + 2) == 0:
             return False
         i += 6
@@ -20,16 +23,16 @@ def find_twin_primes(start, end):
     return twin_primes
 
 def write_results_to_file(filename, twin_primes, delimiter=",", format="row"):
+    if format != "row" and format != "column":
+        print("Ошибка: Неверный формат вывода.  Используйте 'row' или 'column'.")
+        return  # Прерываем выполнение, не создавая файл
     try:
-        with open(filename, "w") as f:
+        with open(filename, "w") as f: #Файл откроется только если формат корректный
             for pair in twin_primes:
                 if format == "row":
                     f.write(f"{pair[0]}{delimiter}{pair[1]}\n")
                 elif format == "column":
                     f.write(f"{pair[0]}\n{pair[1]}\n")
-                else:
-                    print("Ошибка: Неверный формат вывода.  Используйте 'row' или 'column'.")
-                    return # Прерываем запись в файл, если формат неверный
         print(f"Результаты записаны в файл: {filename}")
     except Exception as e:
         print(f"Ошибка при записи в файл: {e}")
