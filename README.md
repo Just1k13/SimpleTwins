@@ -134,9 +134,9 @@
 *   Motherboard:   GIGABYTE Z790 GAMING X
 *   BIOS:          F12, 01/07/2025
 *   Chipset:       Intel Z790 (Raptor Lake-S PCH)
-*   Memory:       - 32768 MBytes @ 3000 MHz, 30-38-38-76
-                  -  16384 MB PC48000 DDR5 SDRAM - Acer BL.9BWWR.350
-                  -  16384 MB PC48000 DDR5 SDRAM - Acer BL.9BWWR.350
+*   Memory:        32768 MBytes @ 3000 MHz, 30-38-38-76
+-  16384 MB PC48000 DDR5 SDRAM - Acer BL.9BWWR.350
+-  16384 MB PC48000 DDR5 SDRAM - Acer BL.9BWWR.350
 *   Graphics:         GIGABYTE GeForce RTX 3070 Ti GAMING OC 8G (GV-N307TGAMING OC-8GD) 8192 MB GDDR6X SDRAM
 *   Drive:         KINGSTON SA1000M8480G, 468.9 GB, NVMe
 *   Sound:         NVIDIA GA104 - High Definition Audio Controller
