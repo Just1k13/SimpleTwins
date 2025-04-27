@@ -123,3 +123,24 @@
 |---|---|---|
 | **Практичность** | Многие показатели (например, эргономичность, доступность) | Не применимы к данному типу программ (консольное приложение) или требуют специализированных тестов. |
 | **Надежность, Эффективность** | Показатели, требующие длительного и специализированного тестирования (например, точное измерение среднего времени безотказной работы, точная оценка использования ресурсов) | Требуют значительных усилий для оценки и выходят за рамки текущего анализа.  Сделана предварительная оценка и отмечена необходимость тестирования. |
+
+
+
+## Task 4
+
+Computer:      GIGABYTE Z790 GAMING X
+CPU:           Intel Core i5-13600KF (Raptor Lake-S 6+8, B0)
+               3500 MHz (35.00x100.0) @ 5500 MHz (55.00x100.0)
+Motherboard:   GIGABYTE Z790 GAMING X
+BIOS:          F12, 01/07/2025
+Chipset:       Intel Z790 (Raptor Lake-S PCH)
+Memory:        32768 MBytes @ 3000 MHz, 30-38-38-76
+               - 16384 MB PC48000 DDR5 SDRAM - Acer BL.9BWWR.350
+               - 16384 MB PC48000 DDR5 SDRAM - Acer BL.9BWWR.350
+Graphics:      GIGABYTE GeForce RTX 3070 Ti GAMING OC 8G (GV-N307TGAMING OC-8GD)
+               NVIDIA GeForce RTX 3070 Ti, 8192 MB GDDR6X SDRAM
+Drive:         KINGSTON SA1000M8480G, 468.9 GB, NVMe
+Sound:         NVIDIA GA104 - High Definition Audio Controller
+Network:       RealTek Semiconductor RTL8125 Gaming 2.5GbE Family Ethernet Controller
+OS:            Microsoft Windows 11 Professional (x64) Build 26100.3775 (24H2)
+
